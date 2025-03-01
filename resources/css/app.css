@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-card img{
+    object-fit: contain;
+    min-height: 400px;
+    width: auto !important;
+    text-align: center !important;
+}
+
+.img-card{
+    display: grid!important;
+    justify-content: center!important;
+}
