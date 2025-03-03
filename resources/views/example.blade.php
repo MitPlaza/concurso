@@ -239,6 +239,8 @@
                                     @enderror
                                 </label>
                             </div>
+                            <p id="file-name" class="text-xs text-gray-600 mt-2"></p>
+                            <!-- Aquí se mostrará el nombre -->
                             <p class="text-xs/5 text-gray-600">PNG, JPG, GIF máximo 2MB</p>
                         </div>
                     </div>
@@ -292,6 +294,13 @@
         checkboxTerminos.addEventListener('change', () => {
             // Habilita o deshabilita el botón según el estado del checkbox
             submitButton.disabled = !checkboxTerminos.checked;
+        });
+    </script>
+
+    <script>
+        document.getElementById('file-upload').addEventListener('change', function () {
+            let fileName = this.files.length > 0 ? this.files[0].name : "No se seleccionó ningún archivo";
+            document.getElementById('file-name').textContent = fileName;
         });
     </script>
 
