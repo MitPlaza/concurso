@@ -36,8 +36,8 @@
                 </div>
 
 
-                <ul
-                    class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside ">
+                <ul class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside "
+                    style="max-width:1000px; margin:0 auto;">
                     <li class="flex items-baseline">
                         <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
@@ -76,7 +76,7 @@
 
 
 
-                <div class="flex flex-col space-y-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
+                <div class="flex flex-col space-y-4 pt-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
                     <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-mapache-nino" target="_blank"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-indigo-800 hover:bg-indigo-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                         Comprar Mantita Niño
@@ -245,10 +245,9 @@
                             class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300  "
                             required />
                     </div>
-                    <label for="remember"
-                        class="ms-2 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Leí y Acepto
+                    <label for="remember" class="ms-2 text-sm font-medium text-blue-600 hover:underline ">Leí y Acepto
                         las
-                        <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">Bases del
+                        <a href="#" class="text-blue-600 hover:underline ">Bases del
                             concuso</a></label>
                 </div>
                 <button type="submit" id="submitButton" disabled
@@ -284,9 +283,13 @@
         const submitButton = document.getElementById('submitButton');
 
         // Escucha el cambio en el estado del checkbox
-        checkboxTerminos.addEventListener('change', () => {
-            // Habilita o deshabilita el botón según el estado del checkbox
-            submitButton.disabled = !checkboxTerminos.checked;
+        checkbox.addEventListener('change', () => {
+            button.disabled = !checkbox.checked;
+            button.classList.toggle('bg-blue-700', checkbox.checked);
+            button.classList.toggle('hover:bg-blue-800', checkbox.checked);
+            button.classList.toggle('bg-blue-400', !checkbox.checked);
+            button.classList.toggle('hover:bg-blue-400', !checkbox.checked);
+            button.classList.toggle('cursor-not-allowed', !checkbox.checked);
         });
     </script>
 
