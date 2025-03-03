@@ -28,7 +28,7 @@
 </body>
 
 <footer class=" rounded-lg shadow-sm m-4 " style="background: #0095A5;">
-    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <div class="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between">
         <ul
             class="mx-auto text-center font-medium flex flex-row p-4 md:p-0 mt-4 rounded-lg space-x-4 md:space-x-8 rtl:space-x-reverse md:mt-0 ">
             <li><a href="https://www.instagram.com/bambino_chile/" target="_blank">
