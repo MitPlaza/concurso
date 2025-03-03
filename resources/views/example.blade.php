@@ -1,13 +1,13 @@
 <x-guest-layout>
 
 
-    <div class="max-w-full">
-        <img class="h-auto max-w-full" src="/images/Banner-Mantita-Cumple-Mes.jpg" alt="image description">
+    <div class="w-full">
+        <img class="h-auto w-full" src="/images/Banner-Mantita-Cumple-Mes.jpg" alt="image description">
     </div>
 
 
-    <div>
-        <section class="  mt-14 mb-28">
+    <div class="w-full">
+        <section class="  m-4">
             <div class="py-8 px-4 mx-auto bg-gray-50 bg-opacity-80 border rounded-2xl text-center lg:py-6"
                 style="max-width: 1000px;">
                 <h3 style="color:#706D6A"
@@ -30,6 +30,12 @@
             <div class="py-8 px-4 mx-auto  text-center lg:py-6" style="max-width: 1000px;">
                 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Cómo participar:</h2>
 
+                <div class="mx-auto text-center m-12" style="max-width: 600px;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EUOC7VXG0cQ?si=xyq3ZMp1eR2WU6ln"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
 
                 <ul
                     class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside dark:text-gray-400">
