@@ -124,7 +124,7 @@
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombre
                             Madre, Padre o Tutor</label>
                         <input type="text" id="first_name" name="nombretutor" value="{{ old('nombretutor') }}"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5" />
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
                         @error('nombretutor')
                             <p style="color:red">{{ $message }}</p>
                         @enderror
@@ -134,7 +134,7 @@
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellido
                             Madre, Padre o Tutor</label>
                         <input type="text" id="last_name" name="apellidotutor" value="{{ old('apellidotutor') }}"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5" />
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
                         @error('apellidotutor')
                             <p style="color:red">{{ $message }}</p>
                         @enderror
@@ -143,7 +143,7 @@
                         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email
                             Madre, Padre o Tutor</label>
                         <input type="email" id="email" name="email" value="{{ old('email') }}"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5" />
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
                         @error('email')
                             <p style="color:red">{{ $message }}</p>
                         @enderror
@@ -153,7 +153,7 @@
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Celular
                             Madre, Padre o Tutor</label>
                         <input type="tel" id="telefono" name="telefono" value="{{ old('telefono') }}"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5" />
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
                         @error('telefono')
                             <p style="color:red">{{ $message }}</p>
                         @enderror
@@ -165,7 +165,7 @@
                     <label for="nombrebebe" class="block mb-2 text-sm font-medium text-gray-900 ">Nombre
                         de tu bebé</label>
                     <input type="text" id="nombrebebe" name="nombrebebe" value="{{ old('nombrebebe') }}"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 " />
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
                     @error('nombrebebe')
                         <p style="color:red">{{ $message }}</p>
                     @enderror
@@ -180,7 +180,7 @@
 
 
                             <input id="nacimiento" name="nacimiento" type="text"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full"
                                 placeholder="ejemplo 01/01/2025" value="{{ old('nacimiento') }}">
                             @error('nacimiento')
                                 <p style="color:red">{{ $message }}</p>
@@ -189,7 +189,8 @@
 
                     </div>
                     <div class="mb-6">
-                        <label for="genero" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Sexo de
+                        <label for="genero"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white w-full">Sexo de
                             tu bebé</label>
                         <select id="genero" name="sexo"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5">
@@ -209,7 +210,7 @@
                     <label for="direccion" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tu
                         dirección</label>
                     <input type="text" id="direccion" name="direccion" value="{{ old('direccion') }}"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5" />
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
                     @error('direccion')
                         <p style="color:red">{{ $message }}</p>
                     @enderror
