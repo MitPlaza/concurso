@@ -118,7 +118,7 @@
             <form action="{{ route('participantes.store')}}" class="p-8" method="post" enctype="multipart/form-data"
                 id="formulario">
                 @csrf
-                <div class="grid gap-6 mb-6 md:grid-cols-2">
+                <div class="grid gap-6 mb-6 md:grid-cols-2 sm:grid-cols-1">
                     <div>
                         <label for="first_name"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombre
@@ -176,7 +176,7 @@
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Fecha
                             de
                             Nacimiento</label>
-                        <div class="relative max-w-sm">
+                        <div class="relative">
 
 
                             <input id="nacimiento" name="nacimiento" type="text"
@@ -193,7 +193,7 @@
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white w-full">Sexo de
                             tu bebé</label>
                         <select id="genero" name="sexo"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5">
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full">
                             <option value="" {{ old('sexo') == '' ? 'selected' : '' }}>Elije el sexo</option>
                             <option value="Niña" {{ old('sexo') == 'Niña' ? 'selected' : '' }}>Niña</option>
                             <option value="Niño" {{ old('sexo') == 'Niño' ? 'selected' : '' }}>Niño</option>
