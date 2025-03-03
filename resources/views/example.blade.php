@@ -1,112 +1,56 @@
 <x-guest-layout>
 
-
-    <div class="max-w-full">
-        <img class="h-auto max-w-full" src="/images/Banner-Mantita-Cumple-Mes.jpg" alt="image description">
+    <div class="w-full">
+        <img class="h-auto w-full object-cover" src="/images/Banner-Mantita-Cumple-Mes.jpg" alt="image description">
     </div>
 
 
-    <div>
-        <section class="  mt-14 mb-28">
-            <div class="py-8 px-4 mx-auto bg-gray-50 bg-opacity-80 border rounded-2xl text-center lg:py-6"
-                style="max-width: 1000px;">
-                <h3 style="color:#706D6A"
-                    class="mb-4 text-xl font-regular tracking-tight leading-none  md:text-2xl lg:text-4xl dark:text-white">
-                    ¡Participa en nuestro concurso<br> #CreceConBambino y gana increíbles premios!</h3>
-                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-6 lg:px-6 dark:text-gray-400">
-                    Registra el crecimiento de tu bebé mes a mes <br>con nuestra Mantita Cumple Mes Bambino y podrás
-                    ganar:<br><br><strong>Premios mensuales:</strong> Se sortearán mensualmente 2 gift cards de $30.000
-                    cada
-                    una para usar en
-                    www.bambino.cl entre las fotos subidas a la plataforma concursobambino.cl.
-                </p>
-                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-6 lg:px-6 dark:text-gray-900">
-                    <strong>Gran premio:</strong> ¡La celebración del primer cumpleaños de tu bebé, <strong>valorizada
-                        en
-                        $300.000</strong> aprox!
+    <div class="w-full px-4">
+        <section class="mt-14 mb-28">
+            <div
+                class="py-8 px-4 mx-auto bg-gray-50 bg-opacity-80 border rounded-2xl text-center lg:py-6 max-w-[1000px] w-full">
+                <h3 class="mb-4 text-xl font-regular tracking-tight leading-none md:text-2xl lg:text-4xl text-gray-700">
+                    ¡Participa en nuestro concurso<br> #CreceConBambino y gana increíbles premios!
+                </h3>
+                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl">
+                    Registra el crecimiento de tu bebé mes a mes con nuestra Mantita Cumple Mes Bambino...
                 </p>
             </div>
 
-            <div class="py-8 px-4 mx-auto  text-center lg:py-6" style="max-width: 1000px;">
-                <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Cómo participar:</h2>
-
-                <div class="mx-auto text-center m-12" style="max-width: 600px;">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EUOC7VXG0cQ?si=xyq3ZMp1eR2WU6ln"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- Ajuste del iframe -->
+            <div class="py-8 px-4 mx-auto text-center lg:py-6 max-w-[1000px] w-full">
+                <h2 class="mb-2 text-lg font-semibold text-gray-900">Cómo participar:</h2>
+                <div class="relative w-full max-w-[600px] mx-auto overflow-hidden">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe class="w-full h-full"
+                            src="https://www.youtube.com/embed/EUOC7VXG0cQ?si=xyq3ZMp1eR2WU6ln"
+                            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <ul
-                    class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside dark:text-gray-400">
-                    <li class="flex items-center">
-                        <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
-                            <path
-                                d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                        </svg>
-                        Usa tu mantita cumple mes de Bambino o adquiérela en nuestra tienda online
-                    </li>
-                    <li class="flex items-baseline">
-                        <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
-                            <path
-                                d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                        </svg>
-                        Toma una foto cada cumple mes de tu bebe sobre la Mantita destacando el mes
-                        correspondiente (ver video).
-                    </li>
-                    <li class="flex items-center">
-                        <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
-                            <path
-                                d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                        </svg>
-                        Publica la foto en una historia de Instagram etiquetando el hashtag #crececonbambino.
-                    </li>
-                    <li class="flex items-center">
-                        <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
-                            <path
-                                d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                        </svg>
-                        Sube la foto en nuestra plataforma de concurso concursobambino.cl
-                    </li>
+            </div>
 
-                </ul>
+            <ul
+                class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside">
+                <li class="flex items-center">
+                    <svg class="w-4 h-4 mr-2 text-green-400" fill="#2cccd3" viewBox="0 0 20 20">
+                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Z" />
+                    </svg>
+                    Usa tu mantita cumple mes de Bambino...
+                </li>
+                <!-- Más elementos aquí -->
+            </ul>
 
-
-
-                <div class="flex flex-col space-y-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
-                    <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-mapache-nino" target="_blank"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-indigo-800 hover:bg-indigo-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Comprar Mantita Niño
-                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                        </svg>
-                    </a>
-                    <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-flores-nina" target="_blank"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-400 hover:bg-red-300 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Comprar Mantita Niña
-                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                        </svg>
-                    </a>
-
-                </div>
-
-                <h2 class="mb-2 mt-8 text-lg font-regular text-gray-900 dark:text-white"> Duración del concurso: Del 3
-                    de
-                    febrero al 30 de septiembre de 2025.</h2>
-
-                <h2 class="mb-2 text-lg font-regular text-gray-900 dark:text-white">Anunciaremos a los ganadores cada
-                    mes en nuestras redes sociales.</h2>
+            <div class="flex flex-col space-y-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
+                <a href="#"
+                    class="inline-flex items-center py-3 px-5 text-white bg-indigo-800 hover:bg-indigo-600 rounded-lg">
+                    Comprar Mantita Niño
+                </a>
+                <a href="#"
+                    class="inline-flex items-center py-3 px-5 text-white bg-red-400 hover:bg-red-300 rounded-lg">
+                    Comprar Mantita Niña
+                </a>
             </div>
         </section>
-
     </div>
 
 
@@ -114,7 +58,7 @@
 
 
     <div class="w-full md:w-auto">
-        <div class="mx-auto" style="max-width: 800px;">
+        <div class="mx-auto max-w-[800px] px-4">
             <form action="{{ route('participantes.store')}}" class="p-8" method="post" enctype="multipart/form-data"
                 id="formulario">
                 @csrf
