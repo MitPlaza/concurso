@@ -26,9 +26,9 @@
             </div>
 
             <div class="py-8 px-4 mx-auto  text-center lg:py-6">
-                <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Cómo participar:</h2>
+                <h2 class="mb-2 text-lg font-semibold text-gray-900 e">Cómo participar:</h2>
 
-                <div class="mx-auto text-center m-12">
+                <div class="flex items-center justify-center text-center mb-4 w-full">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/EUOC7VXG0cQ?si=xyq3ZMp1eR2WU6ln"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -37,8 +37,8 @@
 
 
                 <ul
-                    class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside dark:text-gray-400">
-                    <li class="flex items-center">
+                    class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside ">
+                    <li class="flex items-baseline">
                         <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
                             <path
@@ -55,7 +55,7 @@
                         Toma una foto cada cumple mes de tu bebe sobre la Mantita destacando el mes
                         correspondiente (ver video).
                     </li>
-                    <li class="flex items-center">
+                    <li class="flex items-baseline">
                         <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
                             <path
@@ -63,7 +63,7 @@
                         </svg>
                         Publica la foto en una historia de Instagram etiquetando el hashtag #crececonbambino.
                     </li>
-                    <li class="flex items-center">
+                    <li class="flex items-baseline">
                         <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
                             <path
@@ -98,11 +98,11 @@
 
                 </div>
 
-                <h2 class="mb-2 mt-8 text-lg font-regular text-gray-900 dark:text-white"> Duración del concurso: Del 3
+                <h2 class="mb-2 mt-8 text-lg font-regular text-gray-900 "> Duración del concurso: Del 3
                     de
                     febrero al 30 de septiembre de 2025.</h2>
 
-                <h2 class="mb-2 text-lg font-regular text-gray-900 dark:text-white">Anunciaremos a los ganadores cada
+                <h2 class="mb-2 text-lg font-regular text-gray-900 ">Anunciaremos a los ganadores cada
                     mes en nuestras redes sociales.</h2>
             </div>
         </section>
@@ -120,8 +120,7 @@
                 @csrf
                 <div class="grid gap-6 mb-6 md:grid-cols-2 sm:grid-cols-1">
                     <div>
-                        <label for="first_name"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombre
+                        <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 ">Nombre
                             Madre, Padre o Tutor</label>
                         <input type="text" id="first_name" name="nombretutor" value="{{ old('nombretutor') }}"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
@@ -130,8 +129,7 @@
                         @enderror
                     </div>
                     <div>
-                        <label for="last_name"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellido
+                        <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 ">Apellido
                             Madre, Padre o Tutor</label>
                         <input type="text" id="last_name" name="apellidotutor" value="{{ old('apellidotutor') }}"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
@@ -140,7 +138,7 @@
                         @enderror
                     </div>
                     <div>
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Email
                             Madre, Padre o Tutor</label>
                         <input type="email" id="email" name="email" value="{{ old('email') }}"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
@@ -149,8 +147,7 @@
                         @enderror
                     </div>
                     <div>
-                        <label for="telefono"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Celular
+                        <label for="telefono" class="block mb-2 text-sm font-medium text-gray-900 ">Celular
                             Madre, Padre o Tutor</label>
                         <input type="tel" id="telefono" name="telefono" value="{{ old('telefono') }}"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
@@ -172,8 +169,7 @@
                 </div>
                 <div class="grid gap-6 mb-6 md:grid-cols-2">
                     <div class="mb-6">
-                        <label for="Nacimiento"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Fecha
+                        <label for="Nacimiento" class="block mb-2 text-sm font-medium text-gray-900 ">Fecha
                             de
                             Nacimiento</label>
                         <div class="relative">
@@ -189,8 +185,7 @@
 
                     </div>
                     <div class="mb-6">
-                        <label for="genero"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white w-full">Sexo de
+                        <label for="genero" class="block mb-2 text-sm font-medium text-gray-900  w-full">Sexo de
                             tu bebé</label>
                         <select id="genero" name="sexo"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full">
@@ -207,7 +202,7 @@
 
 
                 <div class="mb-6">
-                    <label for="direccion" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tu
+                    <label for="direccion" class="block mb-2 text-sm font-medium text-gray-900 ">Tu
                         dirección</label>
                     <input type="text" id="direccion" name="direccion" value="{{ old('direccion') }}"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full" />
@@ -247,7 +242,7 @@
                 <div class="flex items-start mb-6 mt-8">
                     <div class="flex items-center h-5">
                         <input id="aceptoTerminos" type="checkbox" name="acepto" value="1"
-                            class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                            class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300  "
                             required />
                     </div>
                     <label for="remember"
@@ -257,7 +252,7 @@
                             concuso</a></label>
                 </div>
                 <button type="submit" id="submitButton" disabled
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">Enviar
                     datos</button>
             </form>
         </div>
@@ -267,9 +262,9 @@
     </div>
 
     <div class="py-8 px-4 mx-auto  text-center lg:py-6" style="max-width: 1000px;">
-        <p class="mt-8 text-lg font-normal text-gray-800 lg:text-md sm:px-6 lg:px-6 dark:text-gray-900">¡No pierdas la
+        <p class="mt-8 text-lg font-normal text-gray-800 lg:text-md sm:px-6 lg:px-6 ">¡No pierdas la
             oportunidad de crear recuerdos inolvidables y ganar fabulosos premios!</p>
-        <p class="mt-2 text-sm font-normal text-stone-600 lg:text-sm sm:px-6 lg:px-6 dark:text-gray-900">
+        <p class="mt-2 text-sm font-normal text-stone-600 lg:text-sm sm:px-6 lg:px-6 ">
             #CrececonBambino #BambinoChile #ConcursoBambino #PrimerCumpleaños #MomentosInolvidables</p>
     </div>
     @if(session('scroll_to'))
