@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 use App\Models\Participante;
 use App\Http\Requests\ParticipanteRequest;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -33,6 +34,16 @@ class ParticipantesController extends Controller
     }
 
     public function store(ParticipanteRequest $request){
+
+        // Verificar si el email ya tiene un registro en los últimos 30 días
+    $email = $request->input('email');
+    $ultimoRegistro = Participante::where('email', $email)
+        ->where('created_at', '>=', Carbon::now()->subDays(30))
+        ->exists();
+
+    if ($ultimoRegistro) {
+        return redirect()->back()->withErrors(['email' => 'Solo puedes enviar un formulario cada 30 días.']);
+    }
        
         $file = $request->file('imagen');
         if($file){
