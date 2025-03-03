@@ -27,6 +27,7 @@
 
             <div class="py-8 px-4 mx-auto  text-center lg:py-6">
                 <h2 class="mb-2 text-lg font-semibold text-gray-900 e">Cómo participar:</h2>
+                <span>Mira el video</span>
 
                 <div class="flex items-center justify-center text-center mb-4 w-full">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/EUOC7VXG0cQ?si=xyq3ZMp1eR2WU6ln"
@@ -98,9 +99,9 @@
 
                 </div>
 
-                <h2 class="mb-2 mt-8 text-lg font-regular text-gray-900 "> Duración del concurso: Del 3
+                <h2 class="mb-2 mt-8 text-lg font-regular text-gray-900 "> Duración del concurso: Del 5
                     de
-                    febrero al 30 de septiembre de 2025.</h2>
+                    Marzo al 30 de septiembre de 2025.</h2>
 
                 <h2 class="mb-2 text-lg font-regular text-gray-900 ">Anunciaremos a los ganadores cada
                     mes en nuestras redes sociales.</h2>
@@ -114,6 +115,7 @@
 
 
     <div class="w-full md:w-auto">
+        <h3 class="text-gray-900">Todos los campos son obligatorios y debes aceptar las bases para enviar los datos</h3>
         <div class="mx-auto" style="max-width: 800px;">
             <form action="{{ route('participantes.store')}}" class="p-8" method="post" enctype="multipart/form-data"
                 id="formulario">
