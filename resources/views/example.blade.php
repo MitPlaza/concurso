@@ -283,13 +283,9 @@
         const submitButton = document.getElementById('submitButton');
 
         // Escucha el cambio en el estado del checkbox
-        checkbox.addEventListener('change', () => {
-            button.disabled = !checkbox.checked;
-            button.classList.toggle('bg-blue-700', checkbox.checked);
-            button.classList.toggle('hover:bg-blue-800', checkbox.checked);
-            button.classList.toggle('bg-blue-400', !checkbox.checked);
-            button.classList.toggle('hover:bg-blue-400', !checkbox.checked);
-            button.classList.toggle('cursor-not-allowed', !checkbox.checked);
+        checkboxTerminos.addEventListener('change', () => {
+            // Habilita o deshabilita el botón según el estado del checkbox
+            submitButton.disabled = !checkboxTerminos.checked;
         });
     </script>
 
