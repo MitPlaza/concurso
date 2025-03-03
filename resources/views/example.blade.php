@@ -30,12 +30,7 @@
             <div class="py-8 px-4 mx-auto  text-center lg:py-6" style="max-width: 1000px;">
                 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Cómo participar:</h2>
 
-                <div class="mx-auto text-center m-12" style="max-width: 600px;">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EUOC7VXG0cQ?si=xyq3ZMp1eR2WU6ln"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+
                 <ul
                     class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside dark:text-gray-400">
                     <li class="flex items-center">
