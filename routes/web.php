@@ -40,6 +40,8 @@ Route::middleware('auth')->group(function () {
    Route::get('/participantes/index', [ParticipantesController::class, 'index'])->name('participantes.index');
     Route::get('/participantes/show/{participante}', [ParticipantesController::class, 'show'])->name('participantes.show');
 Route::get('/participantes/seleccionados', [ParticipantesController::class, 'seleccionados'])->name('participantes.seleccionados');
+
+
 });
 
 require __DIR__.'/auth.php';

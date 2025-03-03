@@ -39,16 +39,16 @@
                 <ul
                     class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside dark:text-gray-400">
                     <li class="flex items-center">
-                        <svg class="w-3.5 h-3.5 me-2 text-yellow-800 dark:text-green-400 shrink-0" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
                             <path
                                 d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                         </svg>
                         Usa tu mantita cumple mes de Bambino o adquiérela en nuestra tienda online
                     </li>
                     <li class="flex items-baseline">
-                        <svg class="w-3.5 h-3.5 me-2 text-yellow-800 dark:text-green-400 shrink-0" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
                             <path
                                 d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                         </svg>
@@ -56,16 +56,16 @@
                         correspondiente (ver video).
                     </li>
                     <li class="flex items-center">
-                        <svg class="w-3.5 h-3.5 me-2 text-yellow-800 dark:text-green-400 shrink-0" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
                             <path
                                 d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                         </svg>
                         Publica la foto en una historia de Instagram etiquetando el hashtag #crececonbambino.
                     </li>
                     <li class="flex items-center">
-                        <svg class="w-3.5 h-3.5 me-2 text-yellow-800 dark:text-green-400 shrink-0" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
                             <path
                                 d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                         </svg>
