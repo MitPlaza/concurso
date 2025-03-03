@@ -9,16 +9,16 @@
             <div class="py-8 px-4 mx-auto bg-gray-50 bg-opacity-80 border rounded-2xl text-center lg:py-6"
                 style="max-width: 1000px;">
                 <h3 style="color:#706D6A"
-                    class="mb-4 text-xl font-regular tracking-tight leading-none  md:text-2xl lg:text-4xl dark:text-white">
+                    class="mb-4 text-lg font-regular tracking-tight leading-none  md:text-2xl lg:text-4xl ">
                     ¡Participa en nuestro concurso<br> #CreceConBambino y gana increíbles premios!</h3>
-                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-6 lg:px-6 dark:text-gray-400">
+                <p class="mb-8 text-md font-normal text-gray-500  sm:px-6 lg:px-6 ">
                     Registra el crecimiento de tu bebé mes a mes <br>con nuestra Mantita Cumple Mes Bambino y podrás
                     ganar:<br><br><strong>Premios mensuales:</strong> Se sortearán mensualmente 2 gift cards de $30.000
                     cada
                     una para usar en
                     www.bambino.cl entre las fotos subidas a la plataforma concursobambino.cl.
                 </p>
-                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-6 lg:px-6 dark:text-gray-900">
+                <p class="mb-8 text-md font-normal text-gray-500  sm:px-6 lg:px-6 ">
                     <strong>Gran premio:</strong> ¡La celebración del primer cumpleaños de tu bebé, <strong>valorizada
                         en
                         $300.000</strong> aprox!
@@ -115,8 +115,11 @@
 
 
     <div class="w-full md:w-auto">
-        <h3 class="text-gray-900">Todos los campos son obligatorios y debes aceptar las bases para enviar los datos</h3>
+
         <div class="mx-auto" style="max-width: 800px;">
+            <h3 style="background: #2cccd3; color:#ffffff; padding: 10px">Todos los campos son obligatorios y debes
+                aceptar las bases
+                para enviar los datos</h3>
             <form action="{{ route('participantes.store')}}" class="p-8" method="post" enctype="multipart/form-data"
                 id="formulario">
                 @csrf
