@@ -27,10 +27,10 @@
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
 </body>
 
-<footer class=" rounded-lg shadow-sm m-4 dark:bg-gray-800" style="background: #0095A5;">
+<footer class=" rounded-lg shadow-sm m-4 " style="background: #0095A5;">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <ul
-            class="mx-auto font-medium flex flex-row p-4 md:p-0 mt-4 rounded-lg space-x-4 md:space-x-8 rtl:space-x-reverse md:mt-0 dark:bg-gray-800 md:dark:bg-gray-900">
+            class="mx-auto text-center font-medium flex flex-row p-4 md:p-0 mt-4 rounded-lg space-x-4 md:space-x-8 rtl:space-x-reverse md:mt-0 ">
             <li><a href="https://www.instagram.com/bambino_chile/" target="_blank">
                     <svg class="text-gray-200" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                         width="30" height="30" viewBox="0 0 24 24">
@@ -58,8 +58,8 @@
         </ul>
     </div>
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span class="mx-auto text-sm text-gray-100 sm:text-center dark:text-gray-400">© 2025 <a
-                href="https://flowbite.com/" class="hover:underline">Bambino</a>. All Rights Reserved.
+        <span class="mx-auto text-sm text-gray-100 sm:text-center ">© 2025 <a href="https://bambino.cl"
+                class="hover:underline">Bambino</a>. All Rights Reserved.
         </span>
 
 
