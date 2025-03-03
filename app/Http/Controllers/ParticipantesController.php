@@ -91,6 +91,27 @@ class ParticipantesController extends Controller
 }
 
 
+public function destroy(Participante $participante)
+{
+    // Verificar si el participante existe
+    if (!$participante) {
+        return redirect()->back()->with('error', 'El participante no existe.');
+    }
+
+    // Eliminar la imagen si existe
+    if ($participante->imagen) {
+        $rutaImagen = public_path('images/' . $participante->imagen);
+        if (file_exists($rutaImagen)) {
+            unlink($rutaImagen);
+        }
+    }
+
+    // Eliminar el participante de la base de datos
+    $participante->delete();
+
+    // Redirigir con un mensaje de éxito
+    return redirect()->route('participantes.index')->with('success', 'Participante eliminado correctamente.');
+}
 
 
 public function exportarExcel()

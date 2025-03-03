@@ -37,12 +37,20 @@
                                             <a href="{{ route('participantes.show', $participante->id) }}"
                                                 class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                                 Ver datos
-
                                             </a>
                                         </div>
                                         <div>
                                             @livewire('toggle-selection', ['participante' => $participante])
                                         </div>
+                                        <form action="{{ route('participantes.destroy', $participante->id) }}" method="POST"
+                                            onsubmit="return confirm('¿Estás seguro de que deseas eliminar este participante?');">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit"
+                                                class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
+                                                Eliminar
+                                            </button>
+                                        </form>
                                     </div>
 
 
