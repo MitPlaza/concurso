@@ -28,7 +28,7 @@
             <div class="py-8 px-4 mx-auto  text-center lg:py-6">
                 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Cómo participar:</h2>
 
-                <div class="mx-auto w-full text-center m-12">
+                <div class="mx-auto text-center m-12">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/EUOC7VXG0cQ?si=xyq3ZMp1eR2WU6ln"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -222,30 +222,39 @@
                     <div
                         class="mt-2 flex bg-white justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
                         <div class="text-center">
-
+                            <svg class="mx-auto size-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor"
+                                aria-hidden="true" data-slot="icon">
+                                <path fill-rule="evenodd"
+                                    d="M1.5 6a2.25 2.25 0 0 1 2.25-2.25h16.5A2.25 2.25 0 0 1 22.5 6v12a2.25 2.25 0 0 1-2.25 2.25H3.75A2.25 2.25 0 0 1 1.5 18V6ZM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0 0 21 18v-1.94l-2.69-2.689a1.5 1.5 0 0 0-2.12 0l-.88.879.97.97a.75.75 0 1 1-1.06 1.06l-5.16-5.159a1.5 1.5 0 0 0-2.12 0L3 16.061Zm10.125-7.81a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Z"
+                                    clip-rule="evenodd" />
+                            </svg>
                             <div class="mt-4 flex text-sm/6 text-gray-600">
-                                <span>Subir imagen</span></br>
-                                <input type="file" name="imagen" id="imagen">
-
-                                @error('imagen')
-                                    <p style="color:red">{{ $message }}</p>
-                                @enderror
-
+                                <label for="file-upload"
+                                    class="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 focus-within:outline-hidden hover:text-indigo-500">
+                                    <span>Subir imagen</span>
+                                    <input id="file-upload" name="imagen" type="file" class="sr-only">
+                                    @error('imagen')
+                                        <p style="color:red">{{ $message }}</p>
+                                    @enderror
+                                </label>
                             </div>
                             <p class="text-xs/5 text-gray-600">PNG, JPG, GIF máximo 2MB</p>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="flex items-start mb-6 mt-8">
                     <div class="flex items-center h-5">
                         <input id="aceptoTerminos" type="checkbox" name="acepto" value="1"
                             class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
                             required />
                     </div>
-                    <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Leí y Acepto
+                    <label for="remember"
+                        class="ms-2 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Leí y Acepto
                         las
                         <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">Bases del
-                            concuso</a>.</label>
+                            concuso</a></label>
                 </div>
                 <button type="submit" id="submitButton" disabled
                     class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar
