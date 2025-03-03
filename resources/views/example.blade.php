@@ -28,7 +28,12 @@
             <div class="py-8 px-4 mx-auto  text-center lg:py-6">
                 <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Cómo participar:</h2>
 
-
+                <div class="mx-auto w-full text-center m-12">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EUOC7VXG0cQ?si=xyq3ZMp1eR2WU6ln"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+                </div>
 
 
                 <ul
@@ -219,7 +224,7 @@
                         <div class="text-center">
 
                             <div class="mt-4 flex text-sm/6 text-gray-600">
-                                <span>Subir imagen</span>
+                                <span>Subir imagen</span></br>
                                 <input type="file" name="imagen" id="imagen">
 
                                 @error('imagen')
