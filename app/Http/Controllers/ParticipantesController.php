@@ -92,6 +92,7 @@ class ParticipantesController extends Controller
 
 
 
+
 public function exportarExcel()
     {
         $participantes = Participante::all();
