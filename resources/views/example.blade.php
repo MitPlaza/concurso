@@ -269,7 +269,8 @@
                         <label for="remember" class="ms-2 text-sm font-medium text-blue-600 hover:underline ">Leí y
                             Acepto
                             las
-                            <a href="#" class="text-blue-600 hover:underline ">Bases del
+                            <a href="https://cdn.shopify.com/s/files/1/0593/7823/7603/files/BASES-DE-ACTIVACION-CONCURSO-BAMBINO-MANTAS.pdf?v=1741099606"
+                                target="_blank" class="text-blue-600 hover:underline ">Bases del
                                 concuso</a></label>
                     </div>
                     <button type="submit" id="submitButton" disabled
