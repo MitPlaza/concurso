@@ -42,6 +42,7 @@
                                         <div>
                                             @livewire('toggle-selection', ['participante' => $participante])
                                         </div>
+
                                         <form action="{{ route('participantes.destroy', $participante->id) }}" method="POST"
                                             onsubmit="return confirm('¿Estás seguro de que deseas eliminar este participante?');">
                                             @csrf
@@ -51,6 +52,7 @@
                                                 Eliminar
                                             </button>
                                         </form>
+
                                     </div>
 
 
