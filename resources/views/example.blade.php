@@ -193,7 +193,7 @@
                             <div class="relative">
 
 
-                                <input id="nacimiento" name="nacimiento" type="text"
+                                <input id="nacimiento" name="nacimiento" maxlength="10" type="text"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 w-full"
                                     placeholder="ejemplo 01/01/2025" value="{{ old('nacimiento') }}">
                                 @error('nacimiento')
@@ -318,7 +318,18 @@
                 document.getElementById('file-name').textContent = fileName;
             });
         </script>
+        <script>
+            document.getElementById('nacimiento').addEventListener('input', function (e) {
+                let input = e.target.value.replace(/\D/g, ''); // Eliminar caracteres no numéricos
+                let formatted = '';
 
+                if (input.length > 0) formatted += input.substring(0, 2); // Día
+                if (input.length > 2) formatted += '/' + input.substring(2, 4); // Mes
+                if (input.length > 4) formatted += '/' + input.substring(4, 8); // Año
+
+                e.target.value = formatted;
+            });
+        </script>
 
 
 </x-guest-layout>
