@@ -77,7 +77,7 @@
 
                     <div>
                         <div class="p-4">
-                            <h3>Si no tienes tu manta puedes coprarla aquí</h3>
+                            <h3>Si no tienes tu manta puedes comprarla aquí</h3>
                         </div>
                         <div class="flex flex-col space-y-4 pt-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
                             <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-mapache-nino"
