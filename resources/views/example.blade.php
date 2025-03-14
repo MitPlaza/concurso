@@ -58,14 +58,6 @@
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                             </svg>
-                            Publica la foto en una historia de Instagram etiquetando el hashtag #crececonbambino.
-                        </li>
-                        <li class="flex items-baseline">
-                            <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
-                                <path
-                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                            </svg>
                             Sube la foto en nuestra plataforma de concurso concursobambino.cl
                         </li>
 
@@ -83,28 +75,32 @@
 
                     </div>
 
-                    <div class="flex flex-col space-y-4 pt-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
-                        <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-mapache-nino"
-                            target="_blank"
-                            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-indigo-800 hover:bg-indigo-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                            Comprar Mantita Niño
-                            <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-                        <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-flores-nina"
-                            target="_blank"
-                            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-400 hover:bg-red-300 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                            Comprar Mantita Niña
-                            <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-
+                    <div>
+                        <div class="p-4">
+                            <h3>Si no tienes tu manta puedes coprarla aquí</h3>
+                        </div>
+                        <div class="flex flex-col space-y-4 pt-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
+                            <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-mapache-nino"
+                                target="_blank"
+                                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-indigo-800 hover:bg-indigo-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                                Comprar Mantita Niño
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                            <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-flores-nina"
+                                target="_blank"
+                                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-400 hover:bg-red-300 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                                Comprar Mantita Niña
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
 
                     <h2 class="mb-2 mt-8 text-lg font-regular text-gray-900 "> Duración del concurso: Del 5
