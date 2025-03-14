@@ -16,7 +16,8 @@
                     style="max-width: 1000px;">
                     <h3 style="color:#423e3a"
                         class="mb-4 text-lg font-regular tracking-tight leading-none  md:text-2xl lg:text-4xl ">
-                        ¡Participa en nuestro concurso<br> #CreceConBambino y gana increíbles premios!</h3>
+                        ¿Ya tienes tu mantita cumpolemes de Bambino?<br>¡Entonces Participa y gana increíbles premios!
+                    </h3>
                     <p class="mb-8 text-md font-normal text-gray-800  sm:px-6 lg:px-6 ">
                         Registra el crecimiento de tu bebé mes a mes <br>con nuestra Mantita Cumple Mes Bambino y podrás
                         ganar:<br><br><strong>Premios mensuales:</strong> Se sortearán mensualmente 2 gift cards de
