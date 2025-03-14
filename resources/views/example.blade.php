@@ -12,31 +12,17 @@
 
         <div class="w-full">
             <section class="m-4">
-                <div class="py-8 px-4 mx-auto bg-gray-50 bg-opacity-80 border rounded-2xl text-center lg:py-6"
-                    style="max-width: 1000px;">
-                    <h3 style="color:#423e3a"
+                <div class="py-8 px-4 mx-auto  text-center lg:py-6" style="max-width: 1000px;">
+                    <h3 style="color:#0095A5"
                         class="mb-4 text-lg font-regular tracking-tight leading-none  md:text-2xl lg:text-4xl ">
-                        ¿Ya tienes tu mantita cumpolemes de Bambino?<br>¡Entonces Participa y gana increíbles premios!
+                        ¿Ya tienes tu mantita cumplemes de Bambino?<br>¡Entonces Participa y gana increíbles premios!
                     </h3>
-                    <p class="mb-8 text-md font-normal text-gray-800  sm:px-6 lg:px-6 ">
-                        Registra el crecimiento de tu bebé mes a mes <br>con nuestra Mantita Cumple Mes Bambino y podrás
-                        ganar:<br><br><strong>Premios mensuales:</strong> Se sortearán mensualmente 2 gift cards de
-                        $30.000
-                        cada
-                        una para usar en
-                        www.bambino.cl entre las fotos subidas a la plataforma concursobambino.cl.
-                    </p>
-                    <p class="mb-8 text-md font-normal text-gray-800  sm:px-6 lg:px-6 ">
-                        <strong>Gran premio:</strong> ¡La celebración del primer cumpleaños de tu bebé,
-                        <strong>valorizada
-                            en
-                            $300.000</strong> aprox!
-                    </p>
+
                 </div>
 
                 <div class="py-8 px-4 mx-auto  text-center lg:py-6">
-                    <h2 class="mb-2 text-lg font-semibold text-gray-900 e">Cómo participar:</h2>
-                    <span>Mira el video</span>
+                    <h2 class="mb-2 text-lg font-semibold text-gray-900">Cómo participar:</h2>
+                    <span class="mb-4">Mira el video</span>
 
                     <div class="flex items-center justify-center text-center mb-4 w-full">
                         <iframe width="560" height="315"
@@ -85,7 +71,18 @@
 
                     </ul>
 
-
+                    <div>
+                        <p class="mb-8 text-md font-normal text-gray-800  sm:px-6 lg:px-6 ">
+                            Se sortearán mensualmente <strong>2 gift cards</strong> de $30.000 cadauna para usar en
+                            www.bambino.cl.
+                        </p>
+                        <p class="mb-8 text-md font-normal text-gray-800  sm:px-6 lg:px-6 ">
+                            <strong>Y un Gran premio:</strong> ¡La celebración del primer cumpleaños de tu bebé,
+                            <strong>valorizada
+                                en
+                                $300.000</strong> aprox!
+                        </p>
+                    </div>
 
                     <div class="flex flex-col space-y-4 pt-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
                         <a href="https://www.bambino.cl/products/mantita-muselina-meses-blanco-mapache-nino"
