@@ -34,14 +34,14 @@
 
 
                     <ul class="mb-8 text-lg text-left p-8 border rounded-2xl text-gray-600 bg-opacity-80 bg-gray-100 list-inside "
-                        style="max-width:1000px; margin:0 auto;">
+                        style="max-width:700px; margin:0 auto;">
                         <li class="flex items-baseline">
                             <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="#2cccd3" viewBox="0 0 20 20">
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                             </svg>
-                            Usa tu mantita cumple mes de Bambino o adquiérela en nuestra tienda online
+                            Usa tu mantita cumple mes de Bambino.
                         </li>
                         <li class="flex items-baseline">
                             <svg class="w-3.5 h-3.5 me-2  dark:text-green-400 shrink-0" aria-hidden="true"
@@ -71,17 +71,16 @@
 
                     </ul>
 
-                    <div>
+                    <div class="p-4">
                         <p class="mb-8 text-md font-normal text-gray-800  sm:px-6 lg:px-6 ">
                             Se sortearán mensualmente <strong>2 gift cards</strong> de $30.000 cadauna para usar en
-                            www.bambino.cl.
-                        </p>
-                        <p class="mb-8 text-md font-normal text-gray-800  sm:px-6 lg:px-6 ">
+                            www.bambino.cl.<br>
                             <strong>Y un Gran premio:</strong> ¡La celebración del primer cumpleaños de tu bebé,
                             <strong>valorizada
                                 en
                                 $300.000</strong> aprox!
                         </p>
+
                     </div>
 
                     <div class="flex flex-col space-y-4 pt-4 gap-4 sm:flex-row sm:justify-center sm:space-y-0">
@@ -126,11 +125,8 @@
         <div class="w-full md:w-auto">
 
             <div class="mx-auto" style="max-width: 800px;">
-                <h3 style="background: #706d6a; color:#ffffff; padding: 10px" class="text-center rounded">Todos los
-                    campos
-                    son obligatorios y debes
-                    aceptar las bases
-                    para enviar los datos</h3>
+                <h3 style="background: #2cccd3; color:#ffffff; padding: 10px" class="text-center rounded">Ingresa todos
+                    los datos más la foto de tu bebé y ya estarás participand</h3>
                 <form action="{{ route('participantes.store')}}" class="p-8" method="post" enctype="multipart/form-data"
                     id="formulario">
                     @csrf
@@ -264,12 +260,12 @@
                                 class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300  "
                                 required />
                         </div>
-                        <label for="remember" class="ms-2 text-sm font-medium text-blue-600 hover:underline ">Leí y
+                        <label for="remember" class="ms-2 text-sm font-medium text-blue-600 hover:underline ">
                             Acepto
-                            las
+                            las Bases del
+                            concuso
                             <a href="https://cdn.shopify.com/s/files/1/0593/7823/7603/files/BASES-DE-ACTIVACION-CONCURSO-BAMBINO-MANTAS.pdf?v=1741099606"
-                                target="_blank" class="text-blue-600 hover:underline ">Bases del
-                                concuso</a></label>
+                                target="_blank" class="text-blue-600 hover:underline ">Ver Bases Aquí</a></label>
                     </div>
                     <button type="submit" id="submitButton" disabled
                         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">Enviar
