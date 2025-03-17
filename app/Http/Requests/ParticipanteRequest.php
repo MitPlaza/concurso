@@ -40,7 +40,7 @@ class ParticipanteRequest extends FormRequest
             'telefono' => 'required|min:9|max:15',
             'direccion' => 'required|min:2',
             'nacimiento' => 'required',
-            'imagen' => ['required', File::image()->max(2 * 1024)],
+            'imagen' => 'required',
             'sexo' => 'required|in:Niña,Niño',
         ];
     }
